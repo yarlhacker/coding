@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container
+{
+
+}
+nav
+{
+    height: 70px;
+    background-color: blue;
+}
+.wrapper_1
+{
+    border: 1px solid black;
+    margin: 20px 70px;
+    height:150px;
+}

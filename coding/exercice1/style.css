@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-origin: padding-box;
+}
+body
+{
+    background-color: #ddd;
+    margin:30px 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container
+{
+ height:100% ;
+ width: 100%;
+ background-color: #fff;
+ border-radius: 15px;
+}
+.header
+{
+ padding: 50px;
+}
+.header h1
+{
+    color: aqua;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.header span
+{
+    color: rgb(50, 158, 17);
+    font-size: 20px;
+}
+.header small
+{
+
+    color:#444;
+
+
+}
+.wrapper
+{
+    display: flex;
+    margin-top: 150px;
+}
+.wrapper .wrapper_left
+{
+ flex: 1;
+ padding: 70px 0 0 70px;
+ background-color: rgb(47, 255, 82);
+ color:#fff;
+ height: 300px;
+ font-size: 17px;
+ border-bottom-left-radius: 15px;
+ 
+}
+.wrapper .gras
+{
+padding-top:30px;
+font-weight: bold;
+
+
+}
+.wrapper .wrapper_left .gros
+{
+    font-size: 50px;
+}
+.wrapper .wrapper_left p
+{
+    margin: 20px 0;
+}
+.wrapper .wrapper_left button
+{
+    text-align: center;
+    padding: 10px 100px;
+    color: #fff;
+    background-color:greenyellow;
+    border-radius:5px;
+    border: none;
+}
+.wrapper .wrapper_right
+{
+    flex: 1;
+    height: 300px;
+    font-size: 17px;
+    border-bottom-right-radius: 15px;
+    background-color: aqua;
+    padding: 70px 0 0 70px;
+    color: #fff;
+ 
+}
